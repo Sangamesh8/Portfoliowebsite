@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sangamesh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 32);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(3, 3, 71);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(58, 58, 199);
+        font-size: 1.04rem;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(92, 92, 218);
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.3rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .btn-link {
+        text-decoration: none;
+        color: white;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(158, 93, 219);
+      }
+      .text-gray {
+        color: grey;
+      }
+      #element {
+        color: rgb(19, 19, 211);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 70vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: auto;
+      }
+      .image-top {
+        width: 50px;
+        position: relative;
+        top: -55px;
+        left: -25px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 65px;
+        width: 230px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 250px;
+        font-size: 12px;
+        
+      }
+      .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+      }
+      .thirdSection h1 {
+        font-size: 1.9rem;
+      }
+      .thirdSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .thirdSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: auto;
+      }
+      .image-top-skills {
+        width: 60px;
+        position: relative;
+        top: -65px;
+        left: -25px;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: grey;
+        padding: 12 0;
+      }
+      .footer-link {
+        text-decoration: none;
+        color: white;
+      }
+      .footer-link:hover {
+        color: rgb(58, 58, 199);
+        font-size: 1.04rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sangamesh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="https://github.com/Sangamesh8">Projects</a></li>
+            <li>
+              <a href="mailto: sangameshsasnur92@gmail.com">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Sangamesh</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"> <a href="https://drive.google.com/drive/folders/1Krem2iLq_7R8gyyaxm0AIecxvM__VDXc?usp=sharing" class="btn-link">Download Resume</a></button>
+            <button class="btn">
+              <a class="btn-link" href="https://github.com/Sangamesh8"
+                >Visit Git</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./images/bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection" id="about">
+        <h1>Summary</h1> <br>
+        <span class="text-gray"
+          ><b
+            >Proficient in Java, MySQL, and JavaScript, with a solid foundation
+            in software development principles with Object oriented analysis and
+            design. Demonstrated ability to adapt quickly to new technologies
+            and deliver high-quality solutions. Eager to leverage my diverse
+            experience and technical skills to contribute effectively as a Java
+            Full Stack Developer. Solid understanding of software development
+            methodologies, version control, and agile practices. Strong
+            problem-solving skills, analytical thinking, and attention to detail
+            for creating robust and efficient code.Proven ability to work
+            collaboratively in cross-functional teams, facilitating
+            communication between technical and non-technical stakeholders</b
+          >
+        </span>
+        <br />
+        <br>
+        <br>
+
+        <span class="text-gray"> What I have done so far</span>
+        <h1>Past Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="./images/Engineer.png" alt="" />
+            <div class="vertical-title">
+              New Product Engineer - Vijay Spheroidals(2020-2021)
+            </div>
+            <div class="vertical-desc">
+              > Design and Development of dies used in centrifugal castings.
+              <br />
+              > Design of product which fulfills the customer needs. <br />
+              > Design and Development of Process such as PFD, Control Plan and
+              PFMEA. <br />
+              > Development of automation projects on the shop floor. <br />
+              > Development machine code for machining the product.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/Projectlead.png" alt="" />
+            <div class="vertical-title">
+              Project Lead - Vijay Spheroidals(2021-2022)
+            </div>
+            <div class="vertical-desc">
+              > Management of Projects using APQP stages. <br />
+              > Timelines and Task Management to execute the project on time
+              delivery. <br />
+              > Consolidate allthe risk related to project and to ensure a
+              proper mitigation plan. <br />
+              > Team Management.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/Scaler.png" alt="" />
+            <div class="vertical-title">Scaler Academy(2022 - 2023)</div>
+            <div class="vertical-desc">
+              Gaining Expertise in <br />
+              > Data Structure and Algorithms. <br />
+              > Computer Fundamentals. <br />
+              > DBMS. <br />
+              > System Design(LLD and HLD). <br />
+              > Computer Networks. <br />
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br><br><br><br>
+      <section class="thirdSection" id="skills">
+        <h1>Skills</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top-skills" src="./images/Java.png" alt="" />
+            <div class="vertical-title">
+              <strong>Java</strong>
+            </div>
+            <div class="vertical-desc">Intermediate Level</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top-skills" src="./images/MySQL.png" alt="" />
+            <div class="vertical-title">
+              <strong>MySQL</strong>
+            </div>
+            <div class="vertical-desc">Intermediate Level</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top-skills" src="./images/spring.png" alt="" />
+            <div class="vertical-title">
+              <strong>Spring</strong>
+            </div>
+            <div class="vertical-desc">Beginner Level</div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top-skills"
+              src="./images/JavaScript.png"
+              alt=""
+            />
+            <div class="vertical-title">
+              <strong>JavaScript</strong>
+            </div>
+            <div class="vertical-desc">Intermediate Level</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top-skills" src="./images/htmlcss.png" alt="" />
+            <div class="vertical-title">
+              <strong>HTML and CSS</strong>
+            </div>
+            <div class="vertical-desc">Intermediate Level</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top-skills" src="./images/Git.png" alt="" />
+            <div class="vertical-title">
+              <strong>GIT</strong>
+            </div>
+            <div class="vertical-desc">Advance Level</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Sangamesh's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a class="footer-link" href="/"> Home </a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>
+              <a class="footer-link" href="https://github.com/Sangamesh8">
+                Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>
+              <a class="footer-link" href="mailto: sangameshsasnur92@gmail.com">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">sangameshportfolio.com | ©</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Full Stack Java Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
